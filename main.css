@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+13px|Stint+Ultra+Expanded);
+
+body {
+  font-family: Arial;
+  color: #FFF;
+  text-align: center;
+  background-color: #565656
+}
+
+ul {
+  list-style: none;
+  font-size: 24px;
+  font-family: 'Slabo 13px', serif;
+  text-align: center;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+p {
+  font-size: 14px;
+  text-align: left;
+  font-family: 'Slabo 13px', serif;
+  line-height: 1.65em;
+  word-spacing: .15em;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'Stint Ultra Expanded', cursive;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'Stint Ultra Expanded', cursive;
+  color: #19D1A3;
+}
+
+.change {
+  color: #EF5CEF;
+}
+
+.section {
+  width: 45%;
+  padding-top: 50px;
+}
+
+.left {
+  float: left;
+  padding-left: 20px;
+}
+
+.right {
+  float: right;
+  padding-right: 20px;
+}
+
+#sort {
+  padding: 10px 30px;
+  font-size: 14px;
+  margin-top: 5px;
+  border-radius: 15px;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  background-color: #565656;
+  color: #FFF;
+  outline: 0;
+  font-family: 'Slabo 13px', serif;
+}
+
+#sort:hover {
+  background-color: #FFF;
+  color: #565656;
+}
